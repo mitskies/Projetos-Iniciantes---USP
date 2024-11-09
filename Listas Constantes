@@ -1,0 +1,18 @@
+entrada = input()
+
+V = ['a', 'e', 'i', 'o', 'u']
+P = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31]
+N = [10.0, 9.5, 8.0, 7.5]
+A = ['Maria', 85, 9.5]
+Z = []
+
+if entrada == "V":
+  print (V)
+if entrada == "P":
+  print (P)
+if entrada == "N":
+  print (N)
+if entrada == "A":
+  print (A)
+if entrada == "Z":
+  print (Z)
