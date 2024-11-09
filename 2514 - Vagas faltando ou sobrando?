@@ -1,0 +1,11 @@
+total = int(input())
+vagas = " "
+vg_qtd = -1
+
+while vagas != ("."):
+  vagas = (input())
+  vg_qtd += 1
+if vg_qtd <= total:
+  print ("vagas sobrando: {}" .format(total-vg_qtd))
+elif vg_qtd >= total:
+  print ("vagas faltando: {}" .format(vg_qtd-total))
