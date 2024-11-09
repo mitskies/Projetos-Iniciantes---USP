@@ -1,0 +1,30 @@
+total = int(input())
+a = 0
+b = 0
+c = 0
+d = 0
+
+for i in range(0,total):
+  voto = input()
+  
+  if voto == "X":
+    a += 1
+  if voto == "Y":
+    b += 1
+  if voto == "B":
+    c += 1
+  if voto == "N":
+    d += 1
+
+print ("X",a)
+print ("Y",b)
+print ("Brancos e Nulos", c + d)
+
+if a > b:
+  print ("vitoria: X")
+
+elif b > a:
+  print ("vitoria: Y")
+
+else:
+  print ("empate!")
