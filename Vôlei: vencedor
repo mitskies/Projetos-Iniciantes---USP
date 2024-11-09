@@ -1,0 +1,22 @@
+time1 = input()
+time2 = input()
+
+
+pontos1 = input().split()
+pontos2 = input().split()
+
+tamanho = len(pontos1)
+sets1 = 0 
+sets2 = 0
+
+for i in range(tamanho):
+  if pontos1[i] == "25":
+    sets1 += 1
+  if pontos2[i] == "25":
+    sets2 += 1
+
+    
+if sets1 > sets2:
+  print(time1,"(total %d sets)" %(tamanho))
+if sets2 > sets1:
+  print(time2,"(total %d sets)" %(tamanho))
