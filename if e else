@@ -1,0 +1,10 @@
+numero = int(input())
+palpite = " "
+while palpite != numero:
+ palpite = int(input())
+ if palpite > numero:
+   print("menor")
+ elif palpite < numero:
+   print("maior")
+ if palpite == numero:
+    print("igual")
