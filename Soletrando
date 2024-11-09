@@ -1,0 +1,14 @@
+palavra = str(input())
+resultado = ""
+
+while resultado != len(palavra): 
+  letra = str(input())
+
+  if letra == ".":
+    break
+  resultado += letra
+
+if palavra == resultado:
+  print ('True')
+else:
+  print ('False')
