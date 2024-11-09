@@ -1,0 +1,8 @@
+notas = int(input())
+n = 0
+
+for i in range(0,notas):
+  v = int(input())
+  n = n + v
+  
+print(n)
