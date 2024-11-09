@@ -1,0 +1,8 @@
+parada = "."
+qtd_linhas = -1
+texto = " "
+
+while parada != texto:
+  texto = input()
+  qtd_linhas += 1
+print(qtd_linhas)
