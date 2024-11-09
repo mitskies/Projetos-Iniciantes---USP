@@ -1,0 +1,17 @@
+txt = input()
+lis = []
+inv = ''
+
+for indice, letra in enumerate(txt):
+    lis.append(letra)
+
+
+while lis != []:
+     letra = lis.pop()
+     inv += letra
+
+
+if inv != txt:
+  print("N")
+elif inv == txt:
+  print("S")
