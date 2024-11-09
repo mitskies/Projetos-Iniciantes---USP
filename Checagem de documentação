@@ -1,0 +1,9 @@
+cpf = input ()
+doc2 = input ()
+doc3 = input ()
+
+if (doc2 == "falta") or (doc3 == "falta"):
+    print (cpf,"não selecionada")
+else:
+   if (doc2 == "ok") and (doc3 == "ok"):
+    print (cpf,"selecionada")
