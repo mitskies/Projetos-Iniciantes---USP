@@ -1,0 +1,7 @@
+v = int(input())
+c = int(input())
+f = int(input())
+print ("Tabuada do ", v, " de ", c, " até ", f)
+
+for i in range(c,f+1):
+  print("{} x {} = {}".format(v, i, (v * i)))
