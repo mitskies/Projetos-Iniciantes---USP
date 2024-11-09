@@ -1,0 +1,7 @@
+txt = input()
+morse = "...---..."
+
+if morse in txt:
+    print("S")
+else:
+    print("N")
