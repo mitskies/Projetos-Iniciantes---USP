@@ -1,0 +1,13 @@
+entrada = input()
+
+if entrada == "w" or entrada == "W":
+  print ("UP")
+elif entrada == "a" or entrada == "A":
+  print ("LEFT")
+elif entrada == "s" or entrada == "S":
+  print ("DOWN")
+elif entrada == "d" or entrada == "D":
+  print ("RIGHT")
+
+else:
+  print ("?")
